@@ -17,9 +17,7 @@ try running the script and hopefully with the accompanying explanation
 you will understand what is going on. 
 
     Note: *To run a Python module, you just type ``python
-    module_name.py``in your terminal.*
-        
-    
+    module_name.py`` in your terminal.*
 
 The Basics
 =========================
@@ -30,6 +28,8 @@ The Basics
     
         >>> a = 15
         >>> a = "I'm here for an argument"
+
+*   
 
 *   This is nice for brevity, but means that code is not (for most
     cases) checked at compile time. One consequence of this is that the
@@ -48,4 +48,4 @@ The Basics
     We clearly mistyped the variable ``name`` in the first clause of the
     ``if`` statement (``nzme``), but this code will run because the
     program won't enter the ``if`` blocks until the condition ``name ==
-    "Arthur"`` is evaluated. 
+    "Arthur"`` is evaluated.
