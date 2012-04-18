@@ -16,9 +16,8 @@ folder you're currently in and just follow along. Either way, you should
 try running the script and hopefully with the accompanying explanation
 you will understand what is going on. 
 
-.. Note::
-   To run a Python module, you just type ``python module_name.py``in 
-   your terminal.
+    Note: *To run a Python module, you just type ``python
+    module_name.py``in your terminal.*
         
     
 
