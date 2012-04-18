@@ -18,21 +18,28 @@ Where to get help with Python
         * `astrobetter <http://www.astrobetter.com/>`
         * `List of Astronomical Packages <http://www.astro.washington.edu/users/rowen/AstroPy.html>`
         * `W4260: Modeling the Universe <http://www.astro.columbia.edu/~gbryan/W4260_2010/index.html>`
-            
-    * Text editors
-        * Python's IDLE suuuccckkksss
-        * There are a bunch of free options with way better features. Full list is `here <http://wiki.python.org/moin/PythonEditors>`, but I recommend:
-            * `TextWrangler <http://www.barebones.com/products/textwrangler/>` (mac)
-            * emacs (has a Python styler, see http://www.emacswiki.org/emacs/?action=browse;oldid=PythonMode;id=PythonProgrammingInEmacs) (mac, linux, windows)
-            * `komodo edit <http://www.activestate.com/komodo-edit>` (mac, linux, windows)
-            * `Kate <http://www.kate-editor.org/>` (*nix only)
-        * There are also some really nice paid editors:
-            * `BBEdit <http://www.barebones.com/products/bbedit/>` (mac) -- this is basically the full-featured version of TextWrangler
-            * `Coda <http://www.panic.com/coda/>` (mac) 
-            * `TextMate <http://macromates.com/>` (mac)
-            * XCode (Free-ish)
-    * Python package manager
-        * `PIP <http://pypi.python.org/packages/source/p/pip/pip-1.1.tar.gz#md5=62a9f08dd5dc69d76734568a6c040508>`
-        * This replaces the default "easy_install". 
-        * A list of packages in PIP's repository are listed at `the Cheese Shop <http://pypi.python.org/pypi>`
-        * Installing new packages is as easy as ``pip install <packagename>``
+
+-----------------------------
+Text editors
+-----------------------------
+
+    * Python's IDLE suuuccckkksss
+    * There are a bunch of free options with way better features. Full list is `here <http://wiki.python.org/moin/PythonEditors>`, but I recommend:
+        * `TextWrangler <http://www.barebones.com/products/textwrangler/>` (mac)
+        * emacs (has a Python styler, see http://www.emacswiki.org/emacs/?action=browse;oldid=PythonMode;id=PythonProgrammingInEmacs) (mac, linux, windows)
+        * `komodo edit <http://www.activestate.com/komodo-edit>` (mac, linux, windows)
+        * `Kate <http://www.kate-editor.org/>` (*nix only)
+    * There are also some really nice paid editors:
+        * `BBEdit <http://www.barebones.com/products/bbedit/>` (mac) -- this is basically the full-featured version of TextWrangler
+        * `Coda <http://www.panic.com/coda/>` (mac) 
+        * `TextMate <http://macromates.com/>` (mac)
+        * XCode (Free-ish)
+        
+-----------------------------
+Python package manager
+-----------------------------
+
+    * `PIP <http://pypi.python.org/packages/source/p/pip/pip-1.1.tar.gz#md5=62a9f08dd5dc69d76734568a6c040508>`
+    * This replaces the default "easy_install". 
+    * A list of packages in PIP's repository are listed at `the Cheese Shop <http://pypi.python.org/pypi>`
+    * Installing new packages is as easy as ``pip install <packagename>``
