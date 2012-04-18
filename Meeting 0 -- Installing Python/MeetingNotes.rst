@@ -5,11 +5,11 @@ April 13 -- Meeting 0
 -----------------------------
 Where to get help with Python
 -----------------------------
-*   For tutorials and guides, see:
-    `Official Python Tutorial <http://docs.python.org/tutorial/>` 
-    [http://www.diveintopython3.net/ Dive Into Python] <--- This is a really awesome website
-    [http://scipy.org/Getting_Started Using SciPy]
-    [http://docs.python.org/faq/index.html Python FAQ]
+    *   For tutorials and guides, see:
+        * `Official Python Tutorial <http://docs.python.org/tutorial/>` 
+        * [http://www.diveintopython3.net/ Dive Into Python] <--- This is a really awesome website
+        * [http://scipy.org/Getting_Started Using SciPy]
+        * [http://docs.python.org/faq/index.html Python FAQ]
 * For debugging errors and finding solutions to problems, see:
     * [http://stackoverflow.com/questions/tagged/python Stack Overflow]
 * Other good resources:
