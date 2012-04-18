@@ -2,9 +2,9 @@
 April 13 -- Meeting 0
 =========================
 
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Where to get help with Python
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     * For tutorials and guides, see:
         * `Official Python Tutorial <http://docs.python.org/tutorial/>` 
@@ -19,9 +19,9 @@ Where to get help with Python
         * `List of Astronomical Packages <http://www.astro.washington.edu/users/rowen/AstroPy.html>`
         * `W4260: Modeling the Universe <http://www.astro.columbia.edu/~gbryan/W4260_2010/index.html>`
 
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Text editors
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     * Python's IDLE suuuccckkksss
     * There are a bunch of free options with way better features. Full list is `here <http://wiki.python.org/moin/PythonEditors>`, but I recommend:
@@ -35,9 +35,9 @@ Text editors
         * `TextMate <http://macromates.com/>` (mac)
         * XCode (Free-ish)
         
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Python package manager
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     * `PIP <http://pypi.python.org/packages/source/p/pip/pip-1.1.tar.gz#md5=62a9f08dd5dc69d76734568a6c040508>`
     * This replaces the default "easy_install". 
