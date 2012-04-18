@@ -32,5 +32,7 @@ The Basics
         else:
             print name + " Beeblebrox"
     
-    We clearly mistyped the variable name in the first clause of the
-    ``if``
+    We clearly mistyped the variable ``name`` in the first clause of the
+    ``if`` statement (``nzme``), but this code will run because the
+    program won't enter the ``if`` blocks until the condition ``name ==
+    "Arthur"`` is evaluated.
