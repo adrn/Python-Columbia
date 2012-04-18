@@ -23,11 +23,11 @@ The Basics
     following script will run fine, unless `name` is changed to "Arthur"
     ::
     
-    # Basic1_runtime_checking.py
+        # Basic1_runtime_checking.py
     
-    name = "Zaphod"
+        name = "Zaphod"
     
-    if name == "Arthur":
-        print nzme
-    else:
-        print name + " Beeblebrox"
+        if name == "Arthur":
+            print nzme
+        else:
+            print name + " Beeblebrox"
