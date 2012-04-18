@@ -5,18 +5,18 @@ April 13 -- Meeting 0
 -----------------------------
 Where to get help with Python
 -----------------------------
-    * For tutorials and guides, see:
-        * `Official Python Tutorial <http://docs.python.org/tutorial/>` 
-        * [http://www.diveintopython3.net/ Dive Into Python] <--- This is a really awesome website
-        * [http://scipy.org/Getting_Started Using SciPy]
-        * [http://docs.python.org/faq/index.html Python FAQ]
-    * For debugging errors and finding solutions to problems, see:
-        * [http://stackoverflow.com/questions/tagged/python Stack Overflow]
-    * Other good resources:
-        * [http://scicoder.org Scicoder]
-        * [http://www.astrobetter.com/ astrobetter]
-        * [http://www.astro.washington.edu/users/rowen/AstroPy.html List of Astronomical Packages]
-        * [http://www.astro.columbia.edu/~gbryan/W4260_2010/index.html W4260: Modeling the Universe]
+*   For tutorials and guides, see:
+    `Official Python Tutorial <http://docs.python.org/tutorial/>` 
+    [http://www.diveintopython3.net/ Dive Into Python] <--- This is a really awesome website
+    [http://scipy.org/Getting_Started Using SciPy]
+    [http://docs.python.org/faq/index.html Python FAQ]
+* For debugging errors and finding solutions to problems, see:
+    * [http://stackoverflow.com/questions/tagged/python Stack Overflow]
+* Other good resources:
+    * [http://scicoder.org Scicoder]
+    * [http://www.astrobetter.com/ astrobetter]
+    * [http://www.astro.washington.edu/users/rowen/AstroPy.html List of Astronomical Packages]
+    * [http://www.astro.columbia.edu/~gbryan/W4260_2010/index.html W4260: Modeling the Universe]
         
 * Text editors
     * Python's IDLE suuuccckkksss
