@@ -8,7 +8,9 @@ typing and executing code directly in the Python interpreter (e.g., type
 The Basics
 =========================
 
-* Python is a dynamically typed, interepreted language -- variables are
-    not declared before use, and you don't have to declare strict types::
+*   Python is a dynamically typed, interepreted language -- variables are
+    not declared before use, and you don't have to declare strict types
+    ::
+    
     >>> a = 15
     >>> a = "I'm here for an argument"
