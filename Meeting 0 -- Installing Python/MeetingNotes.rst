@@ -5,6 +5,7 @@ April 13 -- Meeting 0
 -----------------------------
 Where to get help with Python
 -----------------------------
+
     *   For tutorials and guides, see:
         * `Official Python Tutorial <http://docs.python.org/tutorial/>` 
         * [http://www.diveintopython3.net/ Dive Into Python] <--- This is a really awesome website
