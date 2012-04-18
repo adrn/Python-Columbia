@@ -1,6 +1,8 @@
+=========================
 April 13 -- Meeting 0
 =========================
 
+-----------------------------
 Where to get help with Python
 -----------------------------
     * For tutorials and guides, see:
