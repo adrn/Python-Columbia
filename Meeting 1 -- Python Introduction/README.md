@@ -38,6 +38,7 @@ The Basics
       but by placing a ``U`` in front of the quotes when declaring a variable
       you can make it a Unicode (UTF-8) string, but you must declare the coding
       of the file to be Unicode by placing this at the very top of your script:
+      
         # coding: utf-8
         
     * Lists (``list``) are ordered, mutable sequences or collections of
