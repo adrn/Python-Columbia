@@ -1,8 +1,7 @@
 The Basics
 =========================
     
-    Note: Everything mentioned below refers to core Python, not Scipy 
-    / Numpy.
+    Note: Everything mentioned below refers to core Python, not Scipy / Numpy.
 
 *   Python is a dynamically typed, interepreted language. This means
     that variables are not declared before use, i.e. you don't have to
