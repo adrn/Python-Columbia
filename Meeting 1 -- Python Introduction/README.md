@@ -14,7 +14,9 @@ The Basics
         >>> a = 15
         >>> a = "I'm here for an argument"
 
-*   Some basic variable types in Python are shown in the example script below.
+*   Open up [Basics_BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py)
+    to follow along. Some basic variable types in Python are shown in the 
+    example script below.
     
     * Integers are created by setting a variable equal to a number with no 
       decimal.
@@ -27,29 +29,7 @@ The Basics
       decimal number.
     * Complex numbers can be created using a lower-case letter j, as below.
       
-    ::
-        
-        # Basics_BasicVariableTypes.py
-        
-        # int
-        a = 15
-        print "An integer! ", a
-        
-        # long
-        b = 1312412401240124139414L
-        # or
-        b = 1312412401240124139414
-        print "A long! ", b
-        
-        # float
-        c = 13.124
-        print "A float! ", c
-        
-        # complex
-        d = 14.123 + 16.0j
-        print "A complex number! ", d
-
-*   Open up [Basics_SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py)
+*   Open up [Basics_SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_SequenceVariableTypes.py)
     to follow along. There are also sequence- and collection-type variables in 
     Python. All of the following objects can be *iterated* over. For example, I 
     can loop through all values in a list without ever touching the indices of 
@@ -70,43 +50,6 @@ The Basics
       over, but will only maintain one value for any given hash. For this
       reason, sets can be used for quickly getting all unique values of a list
       (see example).
-    
-    ::
-        
-        # Basics_SequenceVariableTypes.py
-        
-        # list
-        aList = [1, 15, "Munier"]
-        
-        # Because list objects are iterable, I can loop through the values like this:
-        for value in aList:
-            print value
-        
-        # List objects are also mutable, meaning I can change them in place
-        aList[1] = 35
-        print aList
-        
-        # ---------------------------------------------------------------------------
-        # str
-        aString = "This is a string!"
-        
-        # String objects are also iterable, so I can equivalently loop through the
-        #   characters in a string
-        for character in aString:
-            print character
-        
-        # But strings are just like in other languages, so you can do all the usual things
-        print aString.split("a")
-        print aString.replace("i", "EYE")
-        
-        # ---------------------------------------------------------------------------
-        
-        # tuple
-        aTuple = (1, 15, "Munier")
-        
-        # Tuples are iterable just like lists, but are immutable so item assignment fails
-        aTuple[1] = 999 # THIS WILL FAIL! Comment it out to run the code successfully.
-            
 
 *   This is nice for brevity, but means that code is not (for most
     cases) checked at compile time. One consequence of this is that the
