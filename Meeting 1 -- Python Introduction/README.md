@@ -11,22 +11,18 @@ The Basics
         >>> a = 15
         >>> a = "I'm here for an argument"
 
-*   Some basic variable types in Python are shown in the first example script.
-    Open up [BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/BasicVariableTypes.py)
-    to follow along: 
+*   Some basic variable types in Python:
     
-    *   **Python 2.x only!** Integers are created by setting a variable equal to a 
-        number with no decimal.
-    *   **Python 2.x only!** Long's are integers with unlimited precision, and are 
-        only different from integers by an L at the end of the number (e.g. 14L). If 
-        you don't specify the L, Python will assume you meant to put it there for any 
-        number larger than the maximum integer (see below in the ``Built-in Packages`` 
-        section for a way to check your system's maximum int!).
-    *   **Python 3.x only!** In Python 3, integers and longs were unified, and now
-        all integers behave like longs *when they need to*. Otherwise, they're just
-        like ordinary integers.
-    *   Floating point numbers are created by setting a variable equal to a 
-        decimal number.
+    *   Integers are just like you would expect. In Python 2 they are automatically
+        promoted to *long* if they exceed your system's maximum int value, and in
+        Python 3 ints and longs are unified into one great unlimited precision 
+        integer data type.
+            >>> anInt = 1024
+            >>> anInt ** 50
+            3273390607896141870013189696827599152216642046043064789483291368096133796404674554883270092325904157150886684127560071009217256545885393053328527589376
+    *   Floating point numbers are created as you might expect, by dealing with
+        decimal numbers.
+            >>> aFloat = 14.1345124
     *   Complex numbers can be created using a lower-case letter j, as shown in
         the example script.
 
@@ -74,14 +70,18 @@ The Basics
 *   String formatting
     TODO: fill this in
 
-*   Working with lists
+*   Working with sequences
 
         TODO: fill this in
         
     *   TODO: explain this
-        list1 = list2
-    vs
-        list1 = list2[:]
+        >>> list1 = list2
+        vs
+        >>> list1 = list2[:]
+    *   Operators (+, *, in)
+    *   Indexing / slicing
+
+*   
 
 *   if statements and loops (white space not curly braces!)
     
@@ -109,6 +109,10 @@ The Basics
         >>> x = 4
         >>> print(y)
         3
+
+*   For any object in Python, there is a built-in function ``dir()`` that will return
+    the *namespace* of the object. TODO: explain namespace and dir
+    Other built-in functions [are listed here](http://docs.python.org/library/functions.html).
 
 *   Python code is not (ish) checked at compile time. One consequence of this 
     is that some errors can remain hidden until a seemingly benign change in
