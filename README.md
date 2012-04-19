@@ -1,3 +1,8 @@
+---
+layout: default
+title: Notes
+---
+
 Some Notes
 =========================
 
