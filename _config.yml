@@ -1,6 +1,6 @@
 # Jekyll
-permalink: /:year/:title/
-paginate: 10 
+permalink: /:title/
+paginate: 0
 exclude: 
 name: Python @ Columbia
 baseurl: /Python-Columbia
