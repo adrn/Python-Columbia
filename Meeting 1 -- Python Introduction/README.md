@@ -12,7 +12,7 @@ The Basics
         >>> a = "I'm here for an argument"
 
 *   Some basic variable types in Python are shown in the first example script.
-    Open up [Basics_BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py)
+    Open up [BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/BasicVariableTypes.py)
     to follow along: 
     
     *   Integers are created by setting a variable equal to a number with no 
@@ -27,7 +27,7 @@ The Basics
     *   Complex numbers can be created using a lower-case letter j, as shown in
         the example script.
       
-*   Open up [Basics_SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_SequenceVariableTypes.py)
+*   Open up [SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/SequenceVariableTypes.py)
     to follow along. There are also sequence- and collection-type variables in 
     Python. All of the following objects can be *iterated* over. For example, I 
     can loop through all values in a list without ever touching the indices of 
@@ -55,7 +55,7 @@ The Basics
 
 *   Python code is not (ish) checked at compile time. One consequence of this 
     is that some errors can remain hidden until a seemingly benign change in
-    code. Consider [this example script](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_RuntimeChecking.py). 
+    code. Consider [this example script](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/RuntimeChecking.py). 
     We clearly mistyped the variable ``name`` in the first clause of the 
     ``if`` statement (``nzme``), but this code will run because the interpreter 
     won't enter the top ``if`` block until the condition ``name == "Arthur"`` 
