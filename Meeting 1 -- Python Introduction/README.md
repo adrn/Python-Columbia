@@ -5,28 +5,26 @@ The Basics
 
 *   Python is a dynamically typed, interepreted language. This means
     that variables are not declared before use, i.e. you don't have to
-    allocate your own memory, and you don't have to specify strict data
-    types. Variables are defined in-place, and can be overwritten like 
-    this:
-    ::
+    allocate your own memory, and you don't have to specify strict variable
+    types. Variables are defined in-place, and can be overwritten:
     
         >>> a = 15
         >>> a = "I'm here for an argument"
 
-*   Open up [Basics_BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py)
-    to follow along: some basic variable types in Python are shown in the 
-    example script.
+*   Some basic variable types in Python are shown in the first example script.
+    Open up [Basics_BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py)
+    to follow along: 
     
-    * Integers are created by setting a variable equal to a number with no 
-      decimal.
-    * Long's are integers with unlimited precision, and are
-      differentiated from integers by an L at the end of the number. If you
-      don't specify the L, Python will assume you meant to put it there for
-      any number larger than the maximum integer (see below in the ``Built-in
-      Packages`` section for a way to check your system's maximum int!).
-    * Floating point numbers are created by setting a variable equal to a 
-      decimal number.
-    * Complex numbers can be created using a lower-case letter j, as below.
+    *   Integers are created by setting a variable equal to a number with no 
+        decimal.
+    *   Long's are integers with unlimited precision, and are different from 
+        integers by an L at the end of the number. If you don't specify the L, 
+        Python will assume you meant to put it there for any number larger than 
+        the maximum integer (see below in the ``Built-in Packages`` section for 
+        a way to check your system's maximum int!).
+    *   Floating point numbers are created by setting a variable equal to a 
+        decimal number.
+    *   Complex numbers can be created using a lower-case letter j, as below.
       
 *   Open up [Basics_SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_SequenceVariableTypes.py)
     to follow along. There are also sequence- and collection-type variables in 
