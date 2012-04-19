@@ -253,3 +253,7 @@ footer {
     color:#444;
   }
 }
+
+.viewBig {
+    font-size: 150%;
+}
