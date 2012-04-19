@@ -50,12 +50,11 @@ The Basics
         print "A complex number! ", d
 
 *   Open up [Basics_SequenceVariableTypes]:
-    https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python
-    %20Introduction/Basics_BasicVariableTypes.py to follow along. There are
-    also sequence- and collection-type variables in Python. All of the
-    following objects can be *iterated* over. For example, I can loop
-    through all values in a list without ever touching the indices of the
-    values (see example script).
+    https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py 
+    to follow along. There are also sequence- and collection-type variables in 
+    Python. All of the following objects can be *iterated* over. For example, I 
+    can loop through all values in a list without ever touching the indices of 
+    the values (see example script).
     
     * Strings (``str``) are sequences of characters, and are created
       with either single or double quotes. By default they are ASCII strings,
