@@ -1,6 +1,5 @@
 # Jekyll
 permalink: /:title/
-paginate: 10
 exclude: 
 name: Python @ Columbia
 baseurl: /Python-Columbia
