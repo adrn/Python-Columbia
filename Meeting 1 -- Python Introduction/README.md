@@ -31,7 +31,8 @@ The Basics
         the example script.
 
 *   Arithmetic 
-    * TODO: fill this in...
+    
+        TODO: fill this in...
 
 *   Logical operators are words, not symbols!
         
@@ -74,13 +75,21 @@ The Basics
     TODO: fill this in
 
 *   Working with lists
-    TODO: fill this in
+
+        TODO: fill this in
+        
+    *   TODO: explain this
+        list1 = list2
+    vs
+        list1 = list2[:]
 
 *   if statements and loops (white space not curly braces!)
-    TODO: fill this in
+    
+        TODO: fill this in
 
 *   Comments
-    TODO: fill this in
+    
+        TODO: fill this in
 
 *   Assignments and reference semantics. Consider the following example:
     
