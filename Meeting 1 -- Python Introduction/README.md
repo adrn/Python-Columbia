@@ -17,14 +17,15 @@ The Basics
     
     *   Integers are created by setting a variable equal to a number with no 
         decimal.
-    *   Long's are integers with unlimited precision, and are different from 
-        integers by an L at the end of the number. If you don't specify the L, 
-        Python will assume you meant to put it there for any number larger than 
-        the maximum integer (see below in the ``Built-in Packages`` section for 
-        a way to check your system's maximum int!).
+    *   Long's are integers with unlimited precision, and are only different from 
+        integers by an L at the end of the number (e.g. 14L). If you don't specify 
+        the L, Python will assume you meant to put it there for any number larger 
+        than the maximum integer (see below in the ``Built-in Packages`` section 
+        for a way to check your system's maximum int!).
     *   Floating point numbers are created by setting a variable equal to a 
         decimal number.
-    *   Complex numbers can be created using a lower-case letter j, as below.
+    *   Complex numbers can be created using a lower-case letter j, as shown in
+        the example script.
       
 *   Open up [Basics_SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_SequenceVariableTypes.py)
     to follow along. There are also sequence- and collection-type variables in 
@@ -35,7 +36,10 @@ The Basics
     * Strings (``str``) are sequences of characters, and are created
       with either single or double quotes. By default they are ASCII strings,
       but by placing a ``U`` in front of the quotes when declaring a variable
-      you can make it a Unicode (UTF-8) string.
+      you can make it a Unicode (UTF-8) string, but you must declare the coding
+      of the file to be Unicode by placing this at the very top of your script:
+        # coding: utf-8
+        
     * Lists (``list``) are ordered, mutable sequences or collections of
       objects. Lists can contain multiple object types, and can be iterated
       over. Lists are mutable, meaning they can be modified in place.

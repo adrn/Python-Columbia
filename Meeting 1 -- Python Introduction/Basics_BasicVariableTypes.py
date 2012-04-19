@@ -1,8 +1,10 @@
+from __future__ import print_function
+
 # Basics_BasicVariableTypes.py
 
 # int
 a = 15
-print "An integer! ", a
+print("An integer! ", a)
 
 # long
 b = 1312412401240124139414L
