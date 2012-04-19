@@ -39,7 +39,7 @@ The Basics
       you can make it a Unicode (UTF-8) string, but you must declare the coding
       of the file to be Unicode by placing this at the very top of your script:
       
-        # coding: utf-8
+            # coding: utf-8
         
     * Lists (``list``) are ordered, mutable sequences or collections of
       objects. Lists can contain multiple object types, and can be iterated
