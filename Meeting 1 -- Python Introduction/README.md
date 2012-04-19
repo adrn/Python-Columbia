@@ -22,11 +22,28 @@ The Basics
         you don't specify the L, Python will assume you meant to put it there for any 
         number larger than the maximum integer (see below in the ``Built-in Packages`` 
         section for a way to check your system's maximum int!).
+    *   **Python 3.x only!** In Python 3, integers and longs were unified, and now
+        all integers behave like longs *when they need to*. Otherwise, they're just
+        like ordinary integers.
     *   Floating point numbers are created by setting a variable equal to a 
         decimal number.
     *   Complex numbers can be created using a lower-case letter j, as shown in
         the example script.
-      
+
+*   Arithmetic 
+    * TODO: fill this in...
+
+*   Logical operators are words, not symbols!
+        
+        >>> a = 1
+        >>> b = 42.0
+        >>> (a > 0) and (b < 100)
+        True
+        >>> (a > 0) or (b < 10)
+        True
+        >>> not a > 0
+        False
+
 *   Open up [SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/SequenceVariableTypes.py)
     to follow along. There are also sequence- and collection-type variables in 
     Python. All of the following objects can be *iterated* over. For example, I 
@@ -41,17 +58,48 @@ The Basics
       
             # coding: utf-8
         
-    * Lists (``list``) are ordered, mutable sequences or collections of
-      objects. Lists can contain multiple object types, and can be iterated
-      over. Lists are mutable, meaning they can be modified in place.
-    * Tuples (``tuple``) are ordered, immutable sequences or collections
-      of objects. Tuples can contain multiple object types, and can be
-      iterated over. Tuples are very similar to lists, but are immutable.
-    * Sets (``set``) are unordered, mutable collectsions of *hashable*
-      objects. Sets can contain multiple object types, and can be iterated
-      over, but will only maintain one value for any given hash. For this
-      reason, sets can be used for quickly getting all unique values of a list
-      (see example).
+    *   Lists (``list``) are ordered, mutable sequences or collections of
+        objects. Lists can contain multiple object types, and can be iterated
+        over. Lists are mutable, meaning they can be modified in place.
+    *   Tuples (``tuple``) are ordered, immutable sequences or collections
+        of objects. Tuples can contain multiple object types, and can be
+        iterated over. Tuples are very similar to lists, but are immutable.
+    *   Sets (``set``) are unordered, mutable collectsions of *hashable*
+        objects. Sets can contain multiple object types, and can be iterated
+        over, but will only maintain one value for any given hash. For this
+        reason, sets can be used for quickly getting all unique values of a list
+        (see example).
+
+*   String formatting
+    TODO: fill this in
+
+*   Working with lists
+    TODO: fill this in
+
+*   if statements and loops (white space not curly braces!)
+    TODO: fill this in
+
+*   Comments
+    TODO: fill this in
+
+*   Assignments and reference semantics. Consider the following example:
+    
+        >>> a = [1, 2, 3]
+        >>> b = a
+        >>> a[1] = 100
+        >>> print(b)
+        [1, 100, 3]
+    
+    Why does this happen? The assignment operation, ``b = a`` in this case, assigns
+    a reference to the memory that ``a`` points to: it **doesn't** copy the contents 
+    of ``a``. This is because lists are *mutable* objects. Note that for immutable
+    objects, this does not happen:
+        
+        >>> x = 3
+        >>> y = x
+        >>> x = 4
+        >>> print(y)
+        3
 
 *   Python code is not (ish) checked at compile time. One consequence of this 
     is that some errors can remain hidden until a seemingly benign change in
