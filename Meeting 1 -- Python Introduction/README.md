@@ -51,31 +51,39 @@ The Basics
         >>> not a > 0
         False
 
-*   Open up [SequenceVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/SequenceVariableTypes.py)
-    to follow along. There are also sequence- and collection-type variables in 
-    Python. All of the following objects can be *iterated* over. For example, I 
-    can loop through all values in a list without ever touching the indices of 
-    the values (see example script).
+*   There are also sequence- and collection-type variables in Python. All of 
+    the following objects can be *iterated* over. For example, I can loop 
+    through all values in a list without ever touching the indices of the 
+    values (see example script).
     
     *   Strings (``str``) are sequences of characters, and are created
-        with either single or double quotes. By default they are ASCII strings,
-        but by placing a ``U`` in front of the quotes when declaring a variable
-        you can make it a Unicode (UTF-8) string, but you must declare the coding
-        of the file to be Unicode by placing this at the very top of your script:
+        with either single or double quotes. 
+        
+            >>> aString = "An African or European swallow?"
+            or
+            >>> aString = 'An African or European swallow?'
+        
+        By default they are ASCII strings, but by placing a ``U`` in front of the 
+        quotes when declaring a variable you can make it a Unicode (UTF-8) string, 
+        but you must declare the coding of the file to be Unicode by placing this 
+        at the very top of your script:
       
             # coding: utf-8
         
     *   Lists (``list``) are ordered, mutable sequences or collections of
         objects. Lists can contain multiple object types, and can be iterated
         over. Lists are mutable, meaning they can be modified in place.
+        
+            >>> aList = [1, 15, "Munier"]
+        
     *   Tuples (``tuple``) are ordered, immutable sequences or collections
         of objects. Tuples can contain multiple object types, and can be
         iterated over. Tuples are very similar to lists, but are immutable.
+        
     *   Sets (``set``) are unordered, mutable collectsions of *hashable*
         objects. Sets can contain multiple object types, and can be iterated
         over, but will only maintain one value for any given hash. For this
-        reason, sets can be used for quickly getting all unique values of a list
-        (see example).
+        reason, sets can be used for quickly getting all unique values of a list.
 
 *   String formatting
     TODO: fill this in

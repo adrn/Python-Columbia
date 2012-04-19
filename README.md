@@ -4,7 +4,7 @@ Some Notes
 *   If you see ">>>", this means you should follow along with the code by
     typing and executing code directly in the Python interpreter (e.g., type
     ``python`` in your terminal and type into the new prompt). If you see a
-    code block formatted like this::
+    code block formatted like this
 
         # Some_File_Name.py
     
@@ -16,7 +16,7 @@ Some Notes
     try running the script and hopefully with the accompanying explanation
     you will understand what is going on. 
 
-*   To run a Python module, you just type ``python module_name.py`` in your terminal.*
+*   To run a Python module, you just type ``python module_name.py`` in your terminal.
 
 *   I'm going to use Python 3 notation unless otherwise noted. If you're 
     using Python 2, you may (in some cases) need to add some imports to 
