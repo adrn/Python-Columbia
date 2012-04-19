@@ -1,33 +1,28 @@
-Jekyll bootstrap is a theme for jekyll which uses the [twitter bootstrap css             framework](https://github.com/twitter/bootstrap).
-The advantage of jekyll is that it is self hosted (or hosted on github) and that you can write in markdown on a text editor and just git push new posts to a server which         produces html files. The advantage of this theme is so that you can start blogging       almost right away without having to worry about making a theme.
+Some Notes
+=========================
 
-###Setting up
-To start you own blog, simply `git clone` the [repository on github](https://github.com/ nhoss2/jekyll-bootstrap). You could also press the "fork" button on github.
+*   If you see ">>>", this means you should follow along with the code by
+    typing and executing code directly in the Python interpreter (e.g., type
+    ``python`` in your terminal and type into the new prompt). If you see a
+    code block formatted like this
 
-    git clone git://github.com/nhoss2/jekyll-bootstrap.git
+        # Some_File_Name.py
+    
+        Code here!
 
-If you want to have your blog on github, make sure you change to the `gh-pages` branch.
+    this means you can either create a new Python file ("module") with the
+    specified name and type the code yourself, or open the file from the
+    folder you're currently in and just follow along. Either way, you should
+    try running the script and hopefully with the accompanying explanation
+    you will understand what is going on. 
 
-    git checkout gh-pages
+*   To run a Python module, you just type ``python module_name.py`` in your terminal.
 
-Then you will need to edit the `_config.yml` file at the root of repository.
-
-To add your own posts, add a file to the `_posts` directory which has the name `year-month-day-title.md`. Note - the file does not have to be markdown.
-
-To publish the post, just `git push` it to your own github repo and your set!
-
-###Things to change on `_config.yml`
-There is a config file at the root called `_config.yml`. By Default it looks like:
-
-    permalink: /:year/:title/
-    paginate: 10
-    exclude:
-    name: Jekyll Bootstrap
-    baseurl: /jekyll-bootstrap/
-
-You will need to change the `name` and `baseurl` fields. The others are optional.
-The `baseurl` field is used for the css files and pagination, if you are hosting the     blog on github, you will need to change it to your repository name unless your           repository is the same name as your github user name, which means you will need to have  no value for `baseurl`.
-
-For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/ jekyll/wiki).
-
-For more information on github pages: [http://pages.github.com](http://pages.github.com).
+*   I'm going to use Python 3 notation unless otherwise noted. If you're 
+    using Python 2, you may (in some cases) need to add some imports to 
+    the top of your code that will look something like this:
+    
+        from __future__ import <stuff here>
+    
+    If you plan to use Python 2, let me know and I can help you with the 
+    details.
