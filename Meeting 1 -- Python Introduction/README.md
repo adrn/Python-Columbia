@@ -17,14 +17,24 @@ The Basics
         promoted to *long* if they exceed your system's maximum int value, and in
         Python 3 ints and longs are unified into one great unlimited precision 
         integer data type.
+        
             >>> anInt = 1024
             >>> anInt ** 50
             3273390607896141870013189696827599152216642046043064789483291368096133796404674554883270092325904157150886684127560071009217256545885393053328527589376
+            
     *   Floating point numbers are created as you might expect, by dealing with
-        decimal numbers.
+        decimal numbers. They are by default double precision, but we can talk
+        more in detail about them if you want..
+        
             >>> aFloat = 14.1345124
-    *   Complex numbers can be created using a lower-case letter j, as shown in
-        the example script.
+            
+    *   Complex numbers can be created using a lower-case letter j.
+        
+            >>> aComplex = 14.5 + 11j
+            >>> print(aComplex.real)
+            14.5
+            >>> print(aComplex.imag)
+            11.0
 
 *   Arithmetic 
     
@@ -47,11 +57,11 @@ The Basics
     can loop through all values in a list without ever touching the indices of 
     the values (see example script).
     
-    * Strings (``str``) are sequences of characters, and are created
-      with either single or double quotes. By default they are ASCII strings,
-      but by placing a ``U`` in front of the quotes when declaring a variable
-      you can make it a Unicode (UTF-8) string, but you must declare the coding
-      of the file to be Unicode by placing this at the very top of your script:
+    *   Strings (``str``) are sequences of characters, and are created
+        with either single or double quotes. By default they are ASCII strings,
+        but by placing a ``U`` in front of the quotes when declaring a variable
+        you can make it a Unicode (UTF-8) string, but you must declare the coding
+        of the file to be Unicode by placing this at the very top of your script:
       
             # coding: utf-8
         
