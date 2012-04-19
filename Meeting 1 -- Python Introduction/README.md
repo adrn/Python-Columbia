@@ -52,7 +52,7 @@ The Basics
 *   There are also sequence- and collection-type variables in Python.
     All of the following objects can be *iterated* over. For example, I can
     loop through all values in a list without ever touching the indices of
-    the values (see adrn/PythonBeer/Meeting 1\ --\ Python Introduction/Basics_SequenceVariableTypes.py).
+    the values (see example below).
     
     * Strings (``str``) are sequences of characters, and are created
       with either single or double quotes. By default they are ASCII strings,
