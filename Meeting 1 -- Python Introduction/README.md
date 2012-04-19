@@ -15,8 +15,8 @@ The Basics
         >>> a = "I'm here for an argument"
 
 *   Open up [Basics_BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_BasicVariableTypes.py)
-    to follow along. Some basic variable types in Python are shown in the 
-    example script below.
+    to follow along: some basic variable types in Python are shown in the 
+    example script.
     
     * Integers are created by setting a variable equal to a number with no 
       decimal.
@@ -51,21 +51,10 @@ The Basics
       reason, sets can be used for quickly getting all unique values of a list
       (see example).
 
-*   This is nice for brevity, but means that code is not (for most
-    cases) checked at compile time. One consequence of this is that the
-    following script will run fine, unless ``name`` is changed to "Arthur"
-    ::
-    
-        # Basic1_runtime_checking.py
-    
-        name = "Zaphod"
-    
-        if name == "Arthur":
-            print nzme
-        else:
-            print name + " Beeblebrox"
-    
-    We clearly mistyped the variable ``name`` in the first clause of the
-    ``if`` statement (``nzme``), but this code will run because the
-    program won't enter the ``if`` blocks until the condition ``name ==
-    "Arthur"`` is evaluated.
+*   Python code is not (ish) checked at compile time. One consequence of this 
+    is that some errors can remain hidden until a seemingly benign change in
+    code. Consider [this example script](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/Basics_RuntimeChecking.py). 
+    We clearly mistyped the variable ``name`` in the first clause of the 
+    ``if`` statement (``nzme``), but this code will run because the interpreter 
+    won't enter the top ``if`` block until the condition ``name == "Arthur"`` 
+    evaluates to ``True``.
