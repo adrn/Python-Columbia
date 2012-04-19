@@ -15,13 +15,13 @@ The Basics
     Open up [BasicVariableTypes](https://github.com/adrn/PythonBeer/blob/master/Meeting%201%20--%20Python%20Introduction/BasicVariableTypes.py)
     to follow along: 
     
-    *   Integers are created by setting a variable equal to a number with no 
-        decimal.
-    *   Long's are integers with unlimited precision, and are only different from 
-        integers by an L at the end of the number (e.g. 14L). If you don't specify 
-        the L, Python will assume you meant to put it there for any number larger 
-        than the maximum integer (see below in the ``Built-in Packages`` section 
-        for a way to check your system's maximum int!).
+    *   **Python 2.x only!** Integers are created by setting a variable equal to a 
+        number with no decimal.
+    *   **Python 2.x only!** Long's are integers with unlimited precision, and are 
+        only different from integers by an L at the end of the number (e.g. 14L). If 
+        you don't specify the L, Python will assume you meant to put it there for any 
+        number larger than the maximum integer (see below in the ``Built-in Packages`` 
+        section for a way to check your system's maximum int!).
     *   Floating point numbers are created by setting a variable equal to a 
         decimal number.
     *   Complex numbers can be created using a lower-case letter j, as shown in

@@ -5,6 +5,6 @@ from __future__ import print_function
 name = "Zaphod"
 
 if name == "Arthur":
-    print nzme
+    print(nzme)
 else:
-    print name + " Beeblebrox"
+    print(name + " Beeblebrox")

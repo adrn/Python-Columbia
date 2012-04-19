@@ -10,12 +10,12 @@ print("An integer! ", a)
 b = 1312412401240124139414L
 # or
 b = 1312412401240124139414
-print "A long! ", b
+print("A long! ", b)
 
 # float
 c = 13.124
-print "A float! ", c
+print("A float! ", c)
 
 # complex
 d = 14.123 + 16.0j
-print "A complex number! ", d
+print("A complex number! ", d)
