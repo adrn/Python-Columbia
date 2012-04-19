@@ -3,4 +3,4 @@ permalink: /:title/
 paginate: 100
 exclude: 
 name: Python @ Columbia
-#baseurl: /Python-Columbia
+baseurl: /Python-Columbia
