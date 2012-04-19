@@ -1,8 +1,8 @@
 The Basics
 =========================
     
-    Note: *Everything mentioned below refers to core-Python, not Scipy 
-            / Numpy.*
+    Note: Everything mentioned below refers to core Python, not Scipy 
+            / Numpy.
 
 *   Python is a dynamically typed, interepreted language. This means
     that variables are not declared before use, i.e. you don't have to
@@ -75,11 +75,20 @@ The Basics
         # Basics_SequenceVariableTypes.py
         
         # list
-        a = [1, 15, "Munier"]
+        aList = [1, 15, "Munier"]
         
         # Because list objects are iterable, I can loop through the values like this:
-        for value in a:
+        for value in aList:
             print value
+        
+        # str
+        aString = "This is a string!"
+        
+        # String objects are also iterable, so I can equivalently loop through the
+        #   characters in a string
+        for character in aString:
+            print character
+            
 
 *   This is nice for brevity, but means that code is not (for most
     cases) checked at compile time. One consequence of this is that the
